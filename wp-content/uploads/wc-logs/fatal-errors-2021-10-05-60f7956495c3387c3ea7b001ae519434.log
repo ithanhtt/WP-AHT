@@ -1,0 +1,116 @@
+2021-10-05T07:33:23+00:00 CRITICAL syntax error, unexpected token ")", expecting "{" in C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\widgets\banner.php on line 10
+
+2021-10-05T07:35:24+00:00 CRITICAL syntax error, unexpected token ")", expecting "{" in C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\widgets\banner.php on line 10
+
+2021-10-05T07:35:56+00:00 CRITICAL syntax error, unexpected token ")", expecting "{" in C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\widgets\banner.php on line 10
+
+2021-10-05T08:29:49+00:00 CRITICAL syntax error, unexpected token "{", expecting ":" in C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\widgets\banner.php on line 10
+
+2021-10-05T08:47:13+00:00 CRITICAL Uncaught Error: Class "My_Widget" not found in C:\xampp\htdocs\wordpress\wp-includes\class-wp-widget-factory.php:61
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\widgets.php(115): WP_Widget_Factory->register('My_Widget')
+#1 C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\functions.php(217): register_widget('My_Widget')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): wpdocs_register_widgets('')
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\wordpress\wp-includes\widgets.php(1809): do_action('widgets_init')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): wp_widgets_init('')
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress\wp-settings.php(578): do_action('init')
+#10 C:\xampp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\class-wp-widget-factory.php on line 61
+
+2021-10-05T08:47:31+00:00 CRITICAL Uncaught TypeError: array_merge(): Argument #2 must be of type array, null given in C:\xampp\htdocs\wordpress\wp-includes\widgets.php:603
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\widgets.php(603): array_merge(Array, NULL)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-widget.php(579): _register_widget_update_callback(NULL, Array, NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-widget.php(274): WP_Widget->_register_one()
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-widget-factory.php(102): WP_Widget->_register()
+#4 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Widget_Factory->_register_widgets('')
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\wordpress\wp-includes\widgets.php(1809): do_action('widgets_init')
+#8 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): wp_widgets_init('')
+#9 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#10 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#11 C:\xampp\htdocs\wordpress\wp-settings.php(578): do_action('init')
+#12 C:\xampp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\wordpress\wp-admin\widgets.php(10): require_once('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\widgets.php on line 603
+
+2021-10-05T08:48:01+00:00 CRITICAL Uncaught Error: Class "Me_Widget" not found in C:\xampp\htdocs\wordpress\wp-includes\class-wp-widget-factory.php:61
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\widgets.php(115): WP_Widget_Factory->register('Me_Widget')
+#1 C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\functions.php(217): register_widget('Me_Widget')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): wpdocs_register_widgets('')
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\wordpress\wp-includes\widgets.php(1809): do_action('widgets_init')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): wp_widgets_init('')
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress\wp-settings.php(578): do_action('init')
+#10 C:\xampp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\wordpress\wp-admin\widgets.php(10): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\class-wp-widget-factory.php on line 61
+
+2021-10-05T08:48:49+00:00 CRITICAL Uncaught TypeError: array_merge(): Argument #2 must be of type array, null given in C:\xampp\htdocs\wordpress\wp-includes\widgets.php:603
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\widgets.php(603): array_merge(Array, NULL)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-widget.php(579): _register_widget_update_callback(NULL, Array, NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-widget.php(274): WP_Widget->_register_one()
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-widget-factory.php(102): WP_Widget->_register()
+#4 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Widget_Factory->_register_widgets('')
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\wordpress\wp-includes\widgets.php(1809): do_action('widgets_init')
+#8 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): wp_widgets_init('')
+#9 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#10 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#11 C:\xampp\htdocs\wordpress\wp-settings.php(578): do_action('init')
+#12 C:\xampp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\wordpress\wp-admin\widgets.php(10): require_once('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\widgets.php on line 603
+
+2021-10-05T08:52:01+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "Widget" not found or invalid function name in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:303
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\widgets.php(1809): do_action('widgets_init')
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): wp_widgets_init('')
+#4 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\wordpress\wp-settings.php(578): do_action('init')
+#7 C:\xampp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 303
+
+2021-10-05T09:30:56+00:00 CRITICAL syntax error, unexpected double-quote mark in C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\widgets\banner.php on line 32
+
+2021-10-05T09:32:57+00:00 CRITICAL syntax error, unexpected token "<" in C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\widgets\banner.php on line 32
+
+2021-10-05T09:34:57+00:00 CRITICAL syntax error, unexpected token "<" in C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\widgets\banner.php on line 32
+
+2021-10-05T09:36:58+00:00 CRITICAL syntax error, unexpected token "<" in C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\widgets\banner.php on line 32
+
+2021-10-05T09:45:31+00:00 CRITICAL syntax error, unexpected token "<" in C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\widgets\banner.php on line 32
+
+2021-10-05T09:49:33+00:00 CRITICAL Unclosed '{' on line 22 in C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\widgets\banner.php on line 48
+
+2021-10-05T10:32:39+00:00 CRITICAL syntax error, unexpected token ">", expecting end of file in C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\widgets\banner.php on line 57
+

@@ -1,0 +1,134 @@
+2021-10-10T08:42:24+00:00 CRITICAL syntax error, unexpected token "}" in C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\widgets\about-us.php on line 36
+
+2021-10-10T08:51:28+00:00 CRITICAL syntax error, unexpected token ")" in C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\widgets\about-us.php on line 48
+
+2021-10-10T08:52:29+00:00 CRITICAL syntax error, unexpected token ")" in C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\widgets\about-us.php on line 48
+
+2021-10-10T08:53:30+00:00 CRITICAL syntax error, unexpected token ")", expecting variable or "{" or "$" in C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\widgets\about-us.php on line 48
+
+2021-10-10T12:07:38+00:00 CRITICAL Uncaught Error: Call to a member function add_section() on null in C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\functions.php:255
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-settings.php(546): include()
+#1 C:\xampp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\functions.php on line 255
+
+2021-10-10T12:07:40+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "customizer_a" not found or invalid function name in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:303
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-customize-manager.php(933): do_action('customize_regis...', Object(WP_Customize_Manager))
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Customize_Manager->wp_loaded('')
+#4 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\wordpress\wp-settings.php(600): do_action('wp_loaded')
+#7 C:\xampp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 303
+
+2021-10-10T12:07:41+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "customizer_a" not found or invalid function name in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:303
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-customize-manager.php(933): do_action('customize_regis...', Object(WP_Customize_Manager))
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Customize_Manager->wp_loaded('')
+#4 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\wordpress\wp-settings.php(600): do_action('wp_loaded')
+#7 C:\xampp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\wp-admin\customize.php(13): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 303
+
+2021-10-10T12:10:56+00:00 CRITICAL Uncaught Error: Call to a member function add_panel() on null in C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\functions.php:254
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-settings.php(546): include()
+#1 C:\xampp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\functions.php on line 254
+
+2021-10-10T12:10:57+00:00 CRITICAL Uncaught Error: Call to a member function add_panel() on null in C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\functions.php:254
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-settings.php(546): include()
+#1 C:\xampp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\functions.php on line 254
+
+2021-10-10T12:10:59+00:00 CRITICAL Uncaught Error: Call to a member function add_panel() on null in C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\functions.php:254
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-settings.php(546): include()
+#1 C:\xampp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-admin\options-general.php(10): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\functions.php on line 254
+
+2021-10-10T12:19:40+00:00 CRITICAL Uncaught TypeError: Illegal offset type in C:\xampp\htdocs\wordpress\wp-includes\class-wp-customize-manager.php:3976
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\functions.php(263): WP_Customize_Manager->add_section(Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): themeslug_customize_register(Object(WP_Customize_Manager))
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\class-wp-customize-manager.php(933): do_action('customize_regis...', Object(WP_Customize_Manager))
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Customize_Manager->wp_loaded('')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\wordpress\wp-settings.php(600): do_action('wp_loaded')
+#9 C:\xampp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\class-wp-customize-manager.php on line 3976
+
+2021-10-10T12:19:41+00:00 CRITICAL Uncaught TypeError: Illegal offset type in C:\xampp\htdocs\wordpress\wp-includes\class-wp-customize-manager.php:3976
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\functions.php(263): WP_Customize_Manager->add_section(Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): themeslug_customize_register(Object(WP_Customize_Manager))
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\class-wp-customize-manager.php(933): do_action('customize_regis...', Object(WP_Customize_Manager))
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Customize_Manager->wp_loaded('')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\wordpress\wp-settings.php(600): do_action('wp_loaded')
+#9 C:\xampp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\wordpress\wp-admin\customize.php(13): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\class-wp-customize-manager.php on line 3976
+
+2021-10-10T12:34:06+00:00 CRITICAL Uncaught Error: Call to a member function add_control() on null in C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\functions.php:261
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): themeslug_customize_register(Object(WP_Customize_Manager))
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-customize-manager.php(933): do_action('customize_regis...', Object(WP_Customize_Manager))
+#4 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Customize_Manager->wp_loaded('')
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\wordpress\wp-settings.php(600): do_action('wp_loaded')
+#8 C:\xampp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\functions.php on line 261
+
+2021-10-10T12:49:23+00:00 CRITICAL Cannot redeclare customizer_copyright() (previously declared in C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\functions.php:256) in C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\functions.php on line 291
+
+2021-10-10T13:48:38+00:00 CRITICAL Cannot redeclare customizer_social() (previously declared in C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\functions.php:313) in C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\functions.php on line 405
+
+2021-10-10T14:25:34+00:00 CRITICAL Cannot redeclare Category1_Widget::widget() in C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\widgets\category1.php on line 53
+

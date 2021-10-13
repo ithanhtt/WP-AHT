@@ -1,0 +1,143 @@
+2021-10-07T02:26:47+00:00 CRITICAL syntax error, unexpected end of file, expecting "{" in C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\widgets\category.php on line 2
+
+2021-10-07T02:26:51+00:00 CRITICAL syntax error, unexpected end of file, expecting "{" in C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\widgets\category.php on line 2
+
+2021-10-07T02:40:07+00:00 CRITICAL syntax error, unexpected token "}" in C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\widgets\category.php on line 11
+
+2021-10-07T02:44:07+00:00 CRITICAL syntax error, unexpected variable "$category_widget", expecting "function" or "const" in C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\widgets\category.php on line 29
+
+2021-10-07T02:46:08+00:00 CRITICAL syntax error, unexpected variable "$category_widget", expecting "function" or "const" in C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\widgets\category.php on line 29
+
+2021-10-07T02:48:08+00:00 CRITICAL syntax error, unexpected variable "$category_widget", expecting "function" or "const" in C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\widgets\category.php on line 29
+
+2021-10-07T02:57:05+00:00 CRITICAL syntax error, unexpected token "}", expecting variable or "{" or "$" in C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\widgets\category.php on line 23
+
+2021-10-07T02:57:08+00:00 CRITICAL syntax error, unexpected token "}", expecting variable or "{" or "$" in C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\widgets\category.php on line 23
+
+2021-10-07T03:44:36+00:00 CRITICAL Uncaught Error: Failed opening required 'C:\xampp\htdocs\wordpress/wp-content/themes/wp-theme/widgets/category.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\functions.php:226
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-settings.php(546): include()
+#1 C:\xampp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-cron.php(44): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\functions.php on line 226
+
+2021-10-07T03:45:50+00:00 CRITICAL syntax error, unexpected token "}" in C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\widgets\category1.php on line 23
+
+2021-10-07T03:47:50+00:00 CRITICAL syntax error, unexpected token "}" in C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\widgets\category1.php on line 23
+
+2021-10-07T03:49:50+00:00 CRITICAL syntax error, unexpected token "}" in C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\widgets\category1.php on line 23
+
+2021-10-07T03:51:50+00:00 CRITICAL syntax error, unexpected token "}" in C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\widgets\category1.php on line 23
+
+2021-10-07T04:07:09+00:00 CRITICAL syntax error, unexpected token "}" in C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\widgets\category1.php on line 36
+
+2021-10-07T04:09:09+00:00 CRITICAL syntax error, unexpected token "}" in C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\widgets\category1.php on line 36
+
+2021-10-07T04:11:09+00:00 CRITICAL syntax error, unexpected token "}" in C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\widgets\category1.php on line 36
+
+2021-10-07T04:16:02+00:00 CRITICAL Cannot declare class Category1_Widget, because the name is already in use in C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\widgets\category1.php on line 3
+
+2021-10-07T06:41:31+00:00 CRITICAL Uncaught TypeError: extract(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\widgets\category1.php:17
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\widgets\category1.php(17): extract(NULL)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-widget.php(393): Category1_Widget->widget(Array, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\widgets.php(831): WP_Widget->display_callback(Array, Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\index.php(19): dynamic_sidebar('category')
+#4 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\widgets\category1.php on line 17
+
+2021-10-07T06:52:49+00:00 CRITICAL Uncaught Error: Failed opening required 'C:\xampp\htdocs\wordpress/wp-content/themes/wp-theme/widgets/category.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\functions.php:227
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-settings.php(546): include()
+#1 C:\xampp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\functions.php on line 227
+
+2021-10-07T07:06:34+00:00 CRITICAL syntax error, unexpected token ";", expecting variable or "{" or "$" in C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\widgets\category.php on line 33
+
+2021-10-07T07:34:20+00:00 CRITICAL Uncaught Error: Failed opening required 'C:\xampp\htdocs\wordpress/wp-content/themes/wp-theme/widgets/category1.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\functions.php:226
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-settings.php(546): include()
+#1 C:\xampp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\functions.php on line 226
+
+2021-10-07T07:35:18+00:00 CRITICAL Uncaught Error: Failed opening required 'C:\xampp\htdocs\wordpress/wp-content/themes/wp-theme/widgets/category1.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\functions.php:226
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-settings.php(546): include()
+#1 C:\xampp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-admin\widgets.php(10): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\functions.php on line 226
+
+2021-10-07T07:38:08+00:00 CRITICAL syntax error, unexpected token "}", expecting "," or ";" in C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\index.php on line 27
+
+2021-10-07T09:14:05+00:00 CRITICAL Uncaught TypeError: array_column(): Argument #1 ($array) must be of type array, string given in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\RemoteInboxNotifications\Transformers\ArrayColumn.php:27
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\RemoteInboxNotifications\Transformers\ArrayColumn.php(27): array_column('', 'slug')
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\RemoteInboxNotifications\TransformerService.php(59): Automattic\WooCommerce\Admin\RemoteInboxNotifications\Transformers\ArrayColumn->transform('', Object(stdClass), '')
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\RemoteInboxNotifications\OptionRuleProcessor.php(45): Automattic\WooCommerce\Admin\RemoteInboxNotifications\TransformerService::apply('', Array, '')
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\RemoteInboxNotifications\RuleEvaluator.php(47): Automattic\WooCommerce\Admin\RemoteInboxNotifications\OptionRuleProcessor->process(Object(stdClass), NULL)
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\RemoteFreeExtensions\EvaluateExtension.php(26): Automattic\WooCommerce\Admin\RemoteInboxNotifications\RuleEvaluator->evaluate(Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\RemoteFreeExtensions\Init.php(41): Automattic\WooCommerce\Admin\Features\RemoteFreeExtensions\EvaluateExtension::evaluate(Object(stdClass))
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\API\OnboardingFreeExtensions.php(75): Automattic\WooCommerce\Admin\Features\RemoteFreeExtensions\Init::get_extensions()
+#7 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): Automattic\WooCommerce\Admin\API\OnboardingFreeExtensions->get_available_extensions(Object(WP_REST_Request))
+#8 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(987): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wc-admin/onboa...', Array, NULL)
+#9 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(414): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 C:\xampp\htdocs\wordpress\wp-includes\rest-api.php(370): WP_REST_Server->serve_request('/wc-admin/onboa...')
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): rest_api_loaded(Object(WP))
+#12 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#13 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\wordpress\wp-includes\class-wp.php(388): do_action_ref_array('parse_request', Array)
+#15 C:\xampp\htdocs\wordpress\wp-includes\class-wp.php(750): WP->parse_request('')
+#16 C:\xampp\htdocs\wordpress\wp-includes\functions.php(1291): WP->main('')
+#17 C:\xampp\htdocs\wordpress\wp-blog-header.php(16): wp()
+#18 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#19 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\RemoteInboxNotifications\Transformers\ArrayColumn.php on line 27
+
+2021-10-07T09:14:20+00:00 CRITICAL Uncaught TypeError: array_column(): Argument #1 ($array) must be of type array, string given in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\RemoteInboxNotifications\Transformers\ArrayColumn.php:27
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\RemoteInboxNotifications\Transformers\ArrayColumn.php(27): array_column('', 'slug')
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\RemoteInboxNotifications\TransformerService.php(59): Automattic\WooCommerce\Admin\RemoteInboxNotifications\Transformers\ArrayColumn->transform('', Object(stdClass), '')
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\RemoteInboxNotifications\OptionRuleProcessor.php(45): Automattic\WooCommerce\Admin\RemoteInboxNotifications\TransformerService::apply('', Array, '')
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\RemoteInboxNotifications\RuleEvaluator.php(47): Automattic\WooCommerce\Admin\RemoteInboxNotifications\OptionRuleProcessor->process(Object(stdClass), NULL)
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\RemoteFreeExtensions\EvaluateExtension.php(26): Automattic\WooCommerce\Admin\RemoteInboxNotifications\RuleEvaluator->evaluate(Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\RemoteFreeExtensions\Init.php(41): Automattic\WooCommerce\Admin\Features\RemoteFreeExtensions\EvaluateExtension::evaluate(Object(stdClass))
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\API\OnboardingFreeExtensions.php(75): Automattic\WooCommerce\Admin\Features\RemoteFreeExtensions\Init::get_extensions()
+#7 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): Automattic\WooCommerce\Admin\API\OnboardingFreeExtensions->get_available_extensions(Object(WP_REST_Request))
+#8 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(987): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wc-admin/onboa...', Array, NULL)
+#9 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(414): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 C:\xampp\htdocs\wordpress\wp-includes\rest-api.php(370): WP_REST_Server->serve_request('/wc-admin/onboa...')
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): rest_api_loaded(Object(WP))
+#12 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#13 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\wordpress\wp-includes\class-wp.php(388): do_action_ref_array('parse_request', Array)
+#15 C:\xampp\htdocs\wordpress\wp-includes\class-wp.php(750): WP->parse_request('')
+#16 C:\xampp\htdocs\wordpress\wp-includes\functions.php(1291): WP->main('')
+#17 C:\xampp\htdocs\wordpress\wp-blog-header.php(16): wp()
+#18 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#19 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\RemoteInboxNotifications\Transformers\ArrayColumn.php on line 27
+
+2021-10-07T10:16:54+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\index.php on line 82
+
+2021-10-07T10:18:20+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\index.php on line 82
+
+2021-10-07T10:18:24+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\index.php on line 82
+
+2021-10-07T10:18:34+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\index.php on line 82
+
+2021-10-07T10:18:36+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\wordpress\wp-content\themes\wp-theme\index.php on line 82
+
